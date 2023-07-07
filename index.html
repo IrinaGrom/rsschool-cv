@@ -2,10 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>RSSchool CV</title>
   </head>
   <body>
-    <h1>CV</h1>
+    <main>
+      <header>
+        <img class="ava" src="ava.jpg" alt="photo">
+        <h1>Gromova Irina</h1>
+        <h2>Junior Frontend Developer</h2>
+      </header>
+      <aside class="left-column">
+        <h2>Contacts</h2>
+        <ul>
+          <li>E-Mail: lordgreenmagpie@gmail.com</li>
+          <li>GitHub: <a href="https://github.com/IrinaGrom">IrinaGrom</a></li>
+          <li>Discord: @IrinaGrom</li>
+        </ul>
+
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS</li>
+          <li>Bootstrap</li>
+          <li>Git, GitHub</li>
+          <li>Figma</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ol>
+          <li>Russian - Basic</li>
+          <li>German - Intermediate (B1)</li>
+          <li>English - Pre-Intermediate (A2)</li>
+        </ol>
+      </aside>
+      <section class="content">
+        <h2>About me</h2>
+        <p>Junior UI\UX Designer, Junior Frontend Developer, have a wish to improve skills in frontend and JS.</p>
+        <h2>Education</h2>
+        <p>University: Saint Petersburg State University of Information Technologies, Mechanics and Optics (bachelor)</p>
+
+        <h2>Courses</h2>
+        <ul>
+          <li>SkillBox UI\UX Design</li>
+          <li>HTML\CSS\JS tutorials on <a href="https://htmlacademy.ru/">HTML Academy</a></li>
+          <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+        </ul>
+
+        <h2>Code example</h2>
+        <div class="code-example">
+          <pre>
+            <code>
+              document.getElementById("open-popup").addEventListener('click', function() {
+              popup.classList.remove("display-none");
+              document.getElementById("shadow").classList.remove("display-none");
+              });
+            </code>
+          </pre>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-inner">
+          <span>Thanks of</span>
+          <img src="images/rs-logo.svg" class="footer-img" alt="">
+          <a href="https://rs.school/js/" class="footer-link">preschool course</a>
+          <span>2023</span>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
