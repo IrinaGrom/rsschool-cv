@@ -19,6 +19,8 @@ header {
 }
 .ava {
     border-radius: 10px;
+    width: 50%;
+    height: 50%;
 }
 h1 {
     color: #23527d;
@@ -26,7 +28,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 48px;
+    margin-top: 40px;
 }
 h2 {
     color: #23527d;
@@ -71,8 +73,8 @@ ol {
     gap: 8px;
 }
 .footer-img {
-    width: 32px;
-    height: 32px;
+    width: 56px;
+    height: 56px;
 }
 .footer-link {
     color: #23527d;
